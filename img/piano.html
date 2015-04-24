@@ -1,0 +1,132 @@
+
+<!-- saved from url=(0046)file:///Users/user/ruby/ear-trainer/piano.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<link rel="stylesheet" type="text/css" href="./piano_files/normalize.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	need to fix bootstrap seems to be corrupted -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./piano_files/style.css">
+
+
+	<script src="./piano_files/jquery.min.js"></script>
+	<script src="./piano_files/bootstrap.min.js"></script>
+	<script src="./piano_files/piano.js"></script>
+	<style type="text/css">
+	.lead {
+		padding: 10px;
+	}
+	.nav-tabs {
+		margin-top: 160px;
+		margin-bottom: none;
+		border-bottom: none;
+
+	}
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+		background-color: #60D5AC ;
+		border: none;
+
+	}
+	.nav > li > a:hover {
+		background-color: #60D5AC;
+		border: none;
+
+	}
+	.nav-tabs > li > a {
+		background-color: #35D59D;
+		border: none;
+	}
+	.nav > li {
+		border: none;
+		margin-right: 8px;
+	}
+
+
+	</style>
+	</head>
+		<body><p id="sound"><embed src="piano_sounds/2ds.mp3" height="0px" autostart="true" loop="false"></p>
+		<div class="navigation">
+			<div class="container">
+				<h2>The Piano Ear Trainer</h2>
+			</div>
+		</div>
+		<div class="navigation-under">
+		</div>
+
+
+
+		<div class="container">
+			<div class="row">
+				<div class="piano-box">
+
+
+					<div class="piano-master">
+						<div class="white-key" onclick="user_input(&#39;2c&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;2d&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;2e&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;2f&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;2g&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;2a&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;2b&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;3c&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;3d&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;3e&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;3f&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;3g&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;3a&#39;)"></div>
+						<div class="white-key" onclick="user_input(&#39;3b&#39;)"></div>
+					</div>
+					<div class="piano-master">
+						<div class="black-key-left-space-first" onclick="user_input(&#39;2cs&#39;)"></div>
+						<div class="black-key-no-space" onclick="user_input(&#39;2ds&#39;)"></div>
+						<div class="black-key-left-space" onclick="user_input(&#39;2fs&#39;)"></div>
+						<div class="black-key-no-space" onclick="user_input(&#39;2gs&#39;)"></div>
+						<div class="black-key-no-space" onclick="user_input(&#39;2as&#39;)"></div>
+						<div class="black-key-left-space-adjust" onclick="user_input(&#39;3cs&#39;)"></div>
+						<div class="black-key-no-space" onclick="user_input(&#39;3ds&#39;)"></div>
+						<div class="black-key-left-space" onclick="user_input(&#39;3fs&#39;)"></div>
+						<div class="black-key-no-space" onclick="user_input(&#39;3gs&#39;)"></div>
+						<div class="black-key-no-space" onclick="user_input(&#39;3as&#39;)"></div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col-xs-4">
+					<button class="btn btn-success btn-lg" onclick="generate_sound(0)" type="submit"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Generate Random Note</button>
+					<button class="btn btn-success btn-lg" onclick="generate_sound(1)" type="submit">
+						<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Replay</button>
+
+
+
+					</div>
+
+					<div class="col-xs-4">
+						<button class="btn btn-success btn-lg" onclick="generate_image()" type="submit">
+							<span class="glyphicon glyphicon-music" aria-hidden="true"></span> Generate Image</button>
+						<div id="image" class=""></div>
+					</div>
+
+
+					<div class="col-xs-4">
+						<button class="btn btn-danger btn-lg" onclick="reset_score()" type="submit">
+						<span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Reset Score</button>
+						<br>
+						<p id="result"><span class="glyphicon glyphicon-ok large-glyph" aria-hidden="true"></span></p>
+						<p id="score_output">0.034482758620689655</p>
+					</div>
+
+
+				</div>
+
+			</div>
+
+
+
+
+
+			<!-- close container -->
+		
+		
+
+</body></html>

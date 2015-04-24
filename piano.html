@@ -1,0 +1,138 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/dial.sass">
+
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	need to fix bootstrap seems to be corrupted -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="js/piano.js"></script>
+	<style type="text/css">
+	.lead {
+		padding: 10px;
+	}
+	.nav-tabs {
+		margin-top: 160px;
+		margin-bottom: none;
+		border-bottom: none;
+
+	}
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+		background-color: #60D5AC ;
+		border: none;
+
+	}
+	.nav > li > a:hover {
+		background-color: #60D5AC;
+		border: none;
+
+	}
+	.nav-tabs > li > a {
+		background-color: #35D59D;
+		border: none;
+	}
+	.nav > li {
+		border: none;
+		margin-right: 8px;
+	}
+
+
+	</style>
+	</head
+	<body>
+
+		<div class="navigation">
+			<div class ="container">
+				<h2>The Piano Ear Trainer</h2>
+			</div>
+		</div>
+		<div class="navigation-under">
+		</div>
+
+		<div class='container'>
+			<div class = "row" >
+				<div class = "piano-box">
+
+
+					<div class="piano-master">
+						<div class="white-key" onclick="user_input('2c')"></div>
+						<div class="white-key" onclick="user_input('2d')"></div>
+						<div class="white-key" onclick="user_input('2e')"></div>
+						<div class="white-key" onclick="user_input('2f')"></div>
+						<div class="white-key" onclick="user_input('2g')"></div>
+						<div class="white-key" onclick="user_input('2a')"></div>
+						<div class="white-key" onclick="user_input('2b')"></div>
+						<div class="white-key" onclick="user_input('3c')"></div>
+						<div class="white-key" onclick="user_input('3d')"></div>
+						<div class="white-key" onclick="user_input('3e')"></div>
+						<div class="white-key" onclick="user_input('3f')"></div>
+						<div class="white-key" onclick="user_input('3g')"></div>
+						<div class="white-key" onclick="user_input('3a')"></div>
+						<div class="white-key" onclick="user_input('3b')"></div>
+					</div>
+					<div class="piano-master">
+						<div class="black-key-left-space-first" onclick="user_input('2cs')"></div>
+						<div class="black-key-no-space" onclick="user_input('2ds')"></div>
+						<div class="black-key-left-space" onclick="user_input('2fs')"></div>
+						<div class="black-key-no-space" onclick="user_input('2gs')"></div>
+						<div class="black-key-no-space" onclick="user_input('2as')"></div>
+						<div class="black-key-left-space-adjust" onclick="user_input('3cs')"></div>
+						<div class="black-key-no-space" onclick="user_input('3ds')"></div>
+						<div class="black-key-left-space" onclick="user_input('3fs')"></div>
+						<div class="black-key-no-space" onclick="user_input('3gs')"></div>
+						<div class="black-key-no-space" onclick="user_input('3as')"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="control-box">
+						<div class="row">
+				<div class='col-sm-3'>
+					<button class="btn btn-success btn-lg" onClick="generate_sound(0)" type="submit"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Generate Random Note</button>
+					<button class="btn btn-success btn-lg" onClick="generate_sound(1)" type="submit">
+						<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Replay</button>
+						<button class="btn btn-success btn-lg" onClick="generate_image()" type="submit">
+							<span class="glyphicon glyphicon-music" aria-hidden="true"></span> Generate Image</button>
+							<button class="btn btn-danger btn-lg" onClick="score(0)" type="submit">
+						<span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Reset Score</button>
+
+					</div>
+
+					<div class='col-sm-3'>
+
+						<div id='image' class=""></div>
+					</div>
+
+
+					<div class='col-sm-3'>
+
+						<p id="result"></p>
+
+					</div>
+						<div class='col-sm-3'>
+
+
+						<p id="score_output"></p>
+						<!-- test dial -->
+						<!-- test dial -->
+					</div>
+
+				</div>
+
+			</div>
+			</div>
+<p id="sound"></p>
+
+
+
+
+			<!-- close container -->
+		</body>
+		</html>
+

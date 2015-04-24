@@ -1,0 +1,146 @@
+
+.note {
+	margin: 10px;
+	height: 180px;
+	width: 180px;
+	border: 7px solid;
+}
+
+
+.control-box {
+	margin-top: 30px;
+	border-radius: 15px;
+	padding: 15px;
+	background-image: url('../img/background-control.jpg');
+
+}
+
+.large-glyph {
+    font-size: 60px;
+}
+.navigation {
+
+	background-image: url('../img/wood-texture.jpg');
+	padding-top: 0px;
+	color: #999;
+	padding-bottom: 10px;
+}
+.navigation-under {
+	background-image: url('../img/wood-tile-background.jpg');
+	margin-bottom: 40px;
+	height: 18px;
+}
+.piano-box {
+	margin-top: 0px;
+	background-image: url('../img/wood-texture.jpg');
+	padding: 30px;
+	border-radius: 25px;
+	position: relative;
+	height: 340px;
+	width: 100%;
+}
+
+.white-key {
+
+	height: 300px;
+	width:6%;
+	background-color: #FFF;
+	display: inline-block ;
+	border-width: 3px;
+	border: linear-gradient(white,black);
+
+}
+.black-key-left-space-first {
+	margin-left: 4%;
+	height: 200px;
+	width: 3%;
+	background-color: black;
+	display: inline-block ;
+}
+.black-key-left-space {
+	margin-left: 10%;
+	height: 200px;
+	width: 3%;
+	background-color: black;
+	display: inline-block ;
+}
+.black-key-left-space-adjust {
+	margin-left: 9%;
+	height: 200px;
+	width: 3%;
+	background-color: black;
+	display: inline-block ;
+}
+
+
+.black-key-no-space {
+	margin-left: 3%;
+	height: 200px;
+	width: 3%;
+	background-color: black;
+	display: inline-block ;
+}
+.piano-master {
+	float:left;
+	background-color: none;
+	width: 100%;
+	position: absolute;
+	top: 20px;
+	margin-left: 2%;
+	margin-right: auto;
+
+}
+
+
+
+/*above is for keys*/
+
+.navbar-default {
+	background-color: #006f48 !important;
+	border-color: #35D59D;
+	border: 30px;
+}
+
+body {
+
+
+background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+}
+
+button {
+	margin: 8px;
+}
+
+.navbar-brand {
+	color: #60D5AC !important;
+
+}
+.main-box {
+	margin-top: 0px;
+	background-color: #35D59D !important;
+	padding: 30px;
+	border-radius: 25px;
+	position: relative;
+}
+
+p {
+	display: inline-block;
+	font-size: 16px;
+	padding:20px;
+	color: #006f48;
+}
+h3 {
+	color: #006f48;
+}
+/*for dial*/
+
+
+
+
+
