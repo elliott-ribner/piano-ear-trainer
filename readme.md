@@ -1,7 +1,16 @@
-# Link Shortener! #
+Pitch Recognition Trainer
+--------------------------------------------------------------------
+The Piano Ear Trainer is designed to be a fun tool to help users improve their sense of pitch. At the press of a button a user is played a random piano note. A user can then input their guess of where on the piano that note came from. Alternatively the aspiring musician can also improve their sheet music reading skills by generating a random note on the staff. The app keeps track of the users score and displays this as a percentage in a scss graphic dial.
 
-### A link bit.ly like link shortener for Launch Academy 2015 ###
+This Web App uses
+  * JavaScript
+  * SASS
+  * Bootstrap
 
-+ This is where the project URL will go.
+View the live App at http://elliottribner.com/ear-trainer/piano.html
 
-Erik and Gen are collaborating!
+* I strongly enourage you to view the app in Chrome due to audio playback limitations in other browsers
+
+View my portfolio of Other projects at http://elliottribner.com/
+
+
