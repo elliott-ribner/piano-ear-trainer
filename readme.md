@@ -9,7 +9,7 @@ This Web App uses
 
 View the live App at http://elliottribner.com/ear-trainer/piano.html
 
-* I strongly enourage you to view the app in Chrome due to audio playback limitations in other browsers
+*** I strongly enourage you to view the app in Chrome due to audio playback limitations in other browsers
 
 View my portfolio of other projects at http://elliottribner.com/
 
